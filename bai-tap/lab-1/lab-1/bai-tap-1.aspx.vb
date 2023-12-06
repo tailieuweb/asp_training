@@ -5,4 +5,7 @@
 
     End Sub
 
+    Protected Sub btn_ketqua_Click(sender As Object, e As EventArgs) Handles btn_ketqua.Click
+
+    End Sub
 End Class

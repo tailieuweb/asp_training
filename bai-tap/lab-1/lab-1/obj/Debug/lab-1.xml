@@ -46,18 +46,36 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:lab_1.bai_tap_1._Label1">
+<member name="F:lab_1.bai_tap_1._label_a">
 <summary>
-Label1 control.
+label_a control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:lab_1.bai_tap_1._Label2">
+<member name="F:lab_1.bai_tap_1._label_b">
 <summary>
-Label2 control.
+label_b control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:lab_1.bai_tap_1._btn_ketqua">
+<summary>
+btn_ketqua control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:lab_1.bai_tap_1._label_ketqua">
+<summary>
+label_ketqua control.
 </summary>
 <remarks>
 Auto-generated field.

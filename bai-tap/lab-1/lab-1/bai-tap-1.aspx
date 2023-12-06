@@ -9,14 +9,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-            <input id="Text1" type="text" />
+            <div>
+                <asp:Label ID="label_a" runat="server" Text="Số a"></asp:Label>
+                <input id="input_a" type="text" />
+            </div>
+            <div>
+                <asp:Label ID="label_b" runat="server" Text="Số a"></asp:Label>
+                <input id="input_b" type="text" />
+            </div>
+            <div>
+                <asp:Button ID="btn_ketqua" runat="server" Text="Tổng" />
+                <asp:Label ID="label_ketqua" runat="server" Text="Kết quả"></asp:Label>
+            </div>
         </div>
-        <div>
-            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
-            <input id="Text1" type="text" />
-        </div>
-
     </form>
 </body>
 </html>
