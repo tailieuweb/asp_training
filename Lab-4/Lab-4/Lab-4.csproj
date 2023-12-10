@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\Style.css" />
+    <Content Include="Css\lab4.css" />
     <Content Include="Index.aspx" />
     <Content Include="lab-4-bai-tap-2.aspx" />
     <Content Include="lab-4-bai-tap-3.aspx" />

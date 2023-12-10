@@ -13,10 +13,12 @@ namespace Lab_4
         {
 
         }
-        protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
+        protected void btnDangKy_Click(Object sender, EventArgs e)
         {
-            string targetPage = e.Item.Value;
-            Response.Redirect(targetPage);
+            if (Page.IsValid)
+            {
+                lblThongBao.Text = string.Format($"Bạn {txtHoTen.Text} đăng ký thành công! <br/> Username: {txtUser.Text} <br/> Pass: {txtMatKhau.Text} <br/> Năm sinh: {txtNamSinh.Text} <br/> Email: {txtEmail.Text} <br/> Địa chỉ: {txtDiaChi.Text} <br/> Sở thích: {txtSoThich.Text}");
+            }
         }
     }
 }

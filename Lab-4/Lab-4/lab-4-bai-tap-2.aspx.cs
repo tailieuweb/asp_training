@@ -13,10 +13,25 @@ namespace Lab_4
         {
 
         }
-        protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
+
+        protected void btnTim_Click(object sender, EventArgs e)
         {
-            string targetPage = e.Item.Value;
-            Response.Redirect(targetPage);
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
+            int uscln = TimUSCLN(a, b);
+            lblResult.Text = $"USCLN của {a} và {b} là: {uscln}";
+        }
+
+        protected int TimUSCLN(int a, int b)
+        {
+            if (b == 0)
+            {
+                return a;
+            }
+            else
+            {
+                return TimUSCLN(b, a % b);
+            }
         }
     }
 }
