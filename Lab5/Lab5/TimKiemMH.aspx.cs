@@ -11,7 +11,7 @@ namespace Lab5
 {
     public partial class TimKiemMH : System.Web.UI.Page
     {
-        public static string chuoiKN = "Data Source=DESKTOP-Q57GG44\\SQLEXPRESS;Initial Catalog=QL_SINHVIEN;Integrated Security=True;Encrypt=False;TrustServerCertificate=False;";
+        public static string chuoiKN = "Data Source=.;Initial Catalog=QL_SINHVIEN;Integrated Security=True;Encrypt=False;TrustServerCertificate=False;";
         public static SqlConnection cn = new SqlConnection(chuoiKN);
 
         protected void Page_Load(object sender, EventArgs e)
